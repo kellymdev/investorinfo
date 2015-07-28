@@ -1,0 +1,149 @@
+/*------------General Styles-----------------------*/
+
+body {
+  background-color: #e5dfca;
+  color: #567d8c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div {
+  margin: 20px;
+}
+
+#content {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+
+/*------------Text Styles--------------------------*/
+
+h1,
+.additionalHeading {
+  padding: 10px 20px;
+  border-bottom: 2px solid #567d8c;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 3em;
+}
+
+.additionalHeading,
+#currencyData {
+  display: none;
+}
+
+a, a:visited {
+  color: #8c8372;
+  text-decoration: none;
+}
+
+
+/*------------Stock Selector Styles----------------*/
+
+input[type="submit"] {
+  color: #e5dfca;
+  background-color: #567d8c;
+  border: none;
+  box-shadow: 1px 1px 1px #777777;
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+#exchange,
+#tickerSymbol {
+  margin-right: 10px;
+}
+
+#exchange,
+form input[type="text"] {
+  padding: 3px;
+  background-color: #f2f2f2;
+  border: 1px solid #567d8c;
+}
+
+
+/*------------Snowflake Styles---------------------*/
+
+#snowflake,
+#calculator,
+#rorCalculator {
+  float: left;
+  width: 35%;
+}
+
+#snowflake img {
+  max-width: 100%;
+}
+
+
+/*-----Company, Quote and Currency Data Styles-----*/
+
+#companyData,
+#quoteData,
+#currencyData {
+  float: right;
+  width: 55%;
+}
+
+#currencyData {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 1px dashed #567d8c;
+  border-bottom: 1px dashed #567d8c;
+}
+
+
+/*------------Calculator Styles--------------------*/
+
+#calculator,
+#rorCalculator,
+#currencyCalculator {
+  display: none;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px dashed #567d8c;
+}
+
+#calculator h3,
+#rorCalculator h3,
+#currencyCalculator h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px dashed #567d8c;
+  margin: 5px 5px 0 10px;
+}
+
+form {
+  padding: 10px 20px 10px 10px;
+}
+
+#calculatorForm input[type="text"],
+#rorForm input[type="text"],
+#currencyForm input[type="text"] {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+#additionalCalculators {
+  clear: both;
+  margin: 0;
+  border-top: 20px solid #e5dfca;
+}
+
+
+/*------------Footer Styles------------------------*/
+
+footer {
+  border-top: 100px solid #e5dfca;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  font-size: .85em;
+}
+
+footer p:first-child {
+  border-top: 2px solid #567d8c;
+  padding-top: 10px;
+}
